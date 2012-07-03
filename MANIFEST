@@ -9,3 +9,4 @@ t/01_Blocks.t
 t/lib/T/Slide.pm
 t/lib/TBase.pm
 META.yml
+META.json
