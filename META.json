@@ -4,7 +4,7 @@
       "Zahatski Aliaksandr zag@cpan.org"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120351",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
    "license" : [
       "perl_5"
    ],
@@ -16,13 +16,13 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.4"
+            "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
             "Perl6::Pod" : "0.26_12",
-            "Test::Class" : "0",
+            "Test::Class" : 0,
             "XML::ExtOn" : "0.14"
          }
       }
@@ -30,7 +30,7 @@
    "provides" : {
       "Perl6::Pod::Slide" : {
          "file" : "lib/Perl6/Pod/Slide.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       },
       "Perl6::Pod::Slide::Writer" : {
          "file" : "lib/Perl6/Pod/Slide.pm",
@@ -46,8 +46,9 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
+         "type" : "git",
          "url" : "git://github.com/zag/p5-Perl6-Pod-Slide.git"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
