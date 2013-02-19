@@ -3,15 +3,15 @@ use 5.8.0;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'PL_FILES' => {},
-  'INSTALLDIRS' => 'site',
   'NAME' => 'Perl6::Pod::Slide',
-  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Perl6/Pod/Slide.pm',
   'PREREQ_PM' => {
-                   'XML::ExtOn' => '0.14',
+                   'Perl6::Pod' => '0.59',
                    'Test::Class' => 0,
-                   'Perl6::Pod' => '0.26_12'
-                 }
+                   'XML::ExtOn' => '0.14'
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
 )
 ;
