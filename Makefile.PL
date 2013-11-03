@@ -11,7 +11,9 @@ WriteMakefile
                    'XML::ExtOn' => '0.14'
                  },
   'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
+  'EXE_FILES' => [
+                   'scripts/pod6slide'
+                 ],
   'PL_FILES' => {}
 )
 ;
