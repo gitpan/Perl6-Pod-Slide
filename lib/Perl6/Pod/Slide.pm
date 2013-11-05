@@ -100,7 +100,7 @@ use warnings;
 use Data::Dumper;
 use File::Temp qw/ tempfile /;
 
-$Perl6::Pod::Slide::VERSION = '0.09';
+$Perl6::Pod::Slide::VERSION = '0.10';
 
 sub new {
     my $class = shift;
@@ -117,10 +117,10 @@ sub start_write {
 % maked by p5-Perl6-Pod-Slide
 %
 \documentclass{beamer}
-\useinnertheme{umbcboxes}
-\setbeamercolor{umbcboxes}{bg=violet!12,fg=black}
+\useinnertheme{rectangles}
+\setbeamercolor{rectangles}{bg=violet!12,fg=black}
 
-\usetheme{umbc4}
+\usetheme{default}
 \setbeamertemplate{blocks}[rounded][shadow=true] 
 \useoutertheme[footline=authortitle]{miniframes}
 \usetheme[height=7mm]{Rochester}
